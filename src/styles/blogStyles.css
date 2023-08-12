@@ -1,0 +1,34 @@
+.blog-body {
+    font-size: var(--fs-body);
+    display: grid;
+    gap: 1rem;
+    background-color: var(--clr-primary);
+    padding: 3rem;
+}
+
+.blog-body h2 {
+    font-weight: var(--fw-semibold);
+}
+
+.blog-body ul,
+.blog-body ol {
+    list-style-position: inside;
+    margin-left: 2rem;
+}
+
+.blog-body li:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+.blog-body img {
+    margin: auto;
+}
+
+.quote {
+    font-size: 1.5rem;
+    font-family: var(--ff-primary);
+    font-weight: bold;
+    line-height: 2rem;
+    margin: auto;
+    padding: 1.5rem;
+}
