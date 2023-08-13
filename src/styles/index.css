@@ -433,7 +433,13 @@ ul a {
 @media (min-width: 56.25em) {
 
     :root {
-        
+
+        --fs-heroHdgMain: 4rem;
+        --fs-heroSubHdg---blogTitle: 2.5rem;
+        --fs-setionTitle: 2.25rem;
+        --fs-primaryBtn: 2rem;
+        --fs-sectionSubtitle---secondaryBtn---navElem: 1.5rem;
+        --fs-cardTitle: 1.75rem;
         --fs-body: 1.3rem;
 
     }
