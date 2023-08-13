@@ -1,9 +1,8 @@
+import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import logo from '../assets/icons/logo.png'
 import { FaBars } from 'react-icons/fa'
 import { FaX } from 'react-icons/fa6'
-import { Link } from 'react-router-dom'
-
-import { useState } from 'react'
 
 const Header = () => {
 

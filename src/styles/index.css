@@ -16,13 +16,13 @@
     --fw-semibold: 600;
     --fw-bold: 700;
 
-    --fs-heroHdgMain: 4rem;
-    --fs-heroSubHdg---blogTitle: 2.5rem;
-    --fs-setionTitle: 2.25rem;
-    --fs-primaryBtn: 2rem;
+    --fs-heroHdgMain: 3rem;
+    --fs-heroSubHdg---blogTitle: 2.2rem;
+    --fs-setionTitle: 2rem;
+    --fs-primaryBtn: 1.75rem;
     --fs-sectionSubtitle---secondaryBtn---navElem: 1.5rem;
-    --fs-cardTitle: 1.75rem;
-    --fs-body: 1.3rem;
+    --fs-cardTitle: 1.3rem;
+    --fs-body: 1rem;
 }
 
 *,
@@ -155,8 +155,7 @@ ul a {
     font-family: var(--ff-primary);
     font-size: var(--fs-sectionSubtitle---secondaryBtn---navElem);
     max-width: 40rem;
-    padding: 3rem 3rem 0 3rem;
-    margin-bottom: 1rem;
+    padding: 3rem 3rem 1rem 0;
 }
 
 .blog-info small {
@@ -238,11 +237,13 @@ ul a {
 }
 
 .btn {
+    display: block;
     cursor: pointer;
     border: none;
     background-color: var(--clr-secondary);
     color: var(--clr-primary);
     transition: color 0.3s ease, background-color 0.3ms ease;
+    max-width: fit-content;
 }
 
 .btn-primary {
@@ -251,6 +252,7 @@ ul a {
     font-weight: var(--fw-semibold);
     border-radius: 16px;
     text-transform: capitalize;
+    margin: auto;
 }
 
 .btn-secondary {
@@ -426,18 +428,12 @@ ul a {
     width: 100%;
 }
 
+/* Desktop Styles */
+
 @media (min-width: 56.25em) {
 
     :root {
-
-        /* No diff b/w mobile and desktop font sizes for now. Remove these if never changed */
-
-        --fs-heroHdgMain: 4rem;
-        --fs-heroSubHdg---blogTitle: 2.5rem;
-        --fs-setionTitle: 2.25rem;
-        --fs-primaryBtn: 2rem;
-        --fs-sectionSubtitle---secondaryBtn---navElem: 1.5rem;
-        --fs-cardTitle: 1.75rem;
+        
         --fs-body: 1.3rem;
 
     }
@@ -478,6 +474,10 @@ ul a {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 0 1rem;
+    }
+
+    .blog-info {
+        padding-left: 3rem;
     }
 
     #email-field {
