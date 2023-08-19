@@ -37,7 +37,7 @@ const HomePage = () => {
 
             <PageSection
                 title='Quote Generator'
-                subtitle='Fuel your day with inspirational quotes from successful people from different backgrounds.'
+                subtitle='Fuel your day with inspirational quotes from successful people across different backgrounds.'
                 content={<QuoteGenerator />}
                 classes='item-container'
             />
