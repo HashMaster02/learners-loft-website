@@ -23,7 +23,7 @@ const BookNotesPage = () => {
 
       <PageSection
         title='All Notes'
-        subtitle="This is a non-exhaustive collection of notes I've taken on different books I have read back to front. I urge you to read any that strike your interest."
+        subtitle="This is a non-exhaustive collection of notes I've taken on different books I have read back-to-front. I urge you to read any that strike your interest."
         content={<BookNotesCardFrame
           notesList={notes} />}
       />
