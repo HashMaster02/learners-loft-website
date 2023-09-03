@@ -2,7 +2,7 @@
 const ContactForm = () => {
     return (
         <div className="form-container">
-            <form name="Contact Form" action="POST" className="contact-form" data-netlify="true">
+            <form name="Contact Form" method="post" onSubmit="submit" className="contact-form" data-netlify="true">
                 <div className="person-info">
                     <div className="form-field" id="fname-field">
                         <label htmlFor="fname">First Name</label>
