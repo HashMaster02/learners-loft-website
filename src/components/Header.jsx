@@ -27,7 +27,7 @@ const Header = () => {
                     <li><Link to="/blog">Blog</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/booknotes">Book Notes</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    {/* <li><Link to="/contact">Contact</Link></li> */}
                 </ul>
 
                 <button className='btn btn-hamburger'>
@@ -41,7 +41,7 @@ const Header = () => {
                     <li><Link to="/blog">Blog</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/booknotes">Book Notes</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    {/* <li><Link to="/contact">Contact</Link></li> */}
                 </ul>
             </div>
         </>
